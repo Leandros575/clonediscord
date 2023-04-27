@@ -1,17 +1,18 @@
 * { 
-    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 header { 
     display: flex;
     justify-content: space-around;
-
+    padding: 25px;
+    background-color: #404EED;
 }
 
 
-header .collogo img { 
-
+header .collogo a img { 
+    filter: invert(75%);
 }
 
 
