@@ -1,51 +1,63 @@
 * { 
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header { 
+    width: 100%;
+    padding: 25px 0;
+    background-color: #404EED;
+    height: 600px;
+    text-align: center;
+}
+
+
+header .container { 
     display: flex;
     justify-content: space-around;
-    padding: 25px;
-    background-color: #404EED;
+    height: 60px;
+    padding: 0 100px;
 }
 
 
 header .collogo a img { 
-    filter: invert(75%);
+    filter: brightness(0) invert(1);
+}
+
+header .container .nav   { 
+}
+
+header .container .nav ul { 
+    display: flex;
+    list-style: none;
 }
 
 
-header .collista { 
-
-
+header .container .nav ul li { 
+    padding: 0 20px;
 }
 
 
-header .collista .lista { 
-
+header .container .nav ul li a { 
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 16px;
 }
 
-
-header .collista .lista .selecionar { 
-
+header .container .boton button { 
+    border-radius: 40px;
+    padding: 10px 16px; 
+    border: none;
 }
 
-
-header .collista .lista .idiomas .idiomalist {
-
-    
+header .container .boton button a { 
+    text-decoration: none;
+    font-weight: 400;
+    color: #23272a;
 }
 
-
-header .collista . .lista a { 
-
-
+.nav ul li a:hover { 
+    border-bottom: 2px solid #ffff;
 }
-
-
-header .collista a { 
-
-}
-
-
