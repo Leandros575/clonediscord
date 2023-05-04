@@ -58,11 +58,14 @@ header .container .boton button a {
     text-decoration: none;
     font-weight: 400;
     color: #23272a;
-    cursor: pointer;
 }
 
 .nav ul li a:hover { 
     border-bottom: 2px solid #ffff;
+}
+
+header .boton button a:hover { 
+    color: #404EED;
 }
 
 
@@ -72,23 +75,36 @@ header .container2 {
     text-align: center;
     align-items: center;
     height: 100px;
-    width: 980px
+    width: 1200px
 }
 
-
-header .container2 .imagens {
-    width: 100%;
-}
-
-
-header .container2 .imagens .fundo { 
-}
-
-
-header .container2 .imagens .esquerda { 
+header .container2  { 
 
 }
 
 
-header  .container2 .imagens .direita { 
+header .container2 img {
+    width: 1500px;
+}   
+
+
+
+
+header.container2 .imgesquerda { 
+    
+}
+
+
+header.container2 .imgesquerda img { 
+
+}
+
+
+header.container2 .imgdireita { 
+
+
+}
+
+header.container2 .imgdireita img  {
+     
 }
