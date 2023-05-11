@@ -79,32 +79,31 @@ header .container2 {
 }
 
 header .container2  { 
+    height: 400px;
+    background-image: url(/img/nuvens.svg);
+    width: 100%;
+    display: flex;
+}
 
+header .container2 .esquerdaimg {
+    display: flex;
+    position: relative;
+    right: 325px;
+    top: 48px;
+}
+
+header .container2 .esquerdaimg img { 
+    width: 700px;
+}
+
+header .container2 .direitaimg { 
+    display: flex;
+    position: relative;
+    left: 300px;
+    top: 48px;
 }
 
 
-header .container2 img {
-    width: 1500px;
-}   
-
-
-
-
-header.container2 .imgesquerda { 
+header .container2 .direitaimg img { 
     
-}
-
-
-header.container2 .imgesquerda img { 
-
-}
-
-
-header.container2 .imgdireita { 
-
-
-}
-
-header.container2 .imgdireita img  {
-     
 }
